@@ -1,0 +1,64 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "anti-spam": "^0.2.7",
+    "chalk": "^2.4.1",
+    "cool-images": "^1.0.1",
+    "db": "^1.0.7",
+    "discord.js-commando": "^0.10.0",
+    "express": "^4.16.3",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "fs": "^0.0.2",
+    "gifencoder": "^1.1.0",
+    "jimp": "^0.5.0",
+    "map": "^1.0.1",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "node-opus": "^0.3.0",
+    "quick.db": "^7.0.0-b9",
+    "role": "^1.1.1",
+    "simple-youtube-api": "^5.0.2",
+    "slice": "^1.0.0",
+    "steam-provider": "^0.3.2",
+    "superagent": "^3.8.3",
+    "weather-js": "^2.0.0",
+    "ytdl": "^0.10.3",
+    "ytdl-core": "^0.25.2",
+    "http-server": "^0.11.1",
+    "http": "^0.0.0",
+    "http2": "^3.3.7",
+    "app-root-path": "^2.1.0",
+    "js-robloxapi": "^1.0.6",
+    "figlet": "^1.2.0",
+    "generate-password": "^1.4.0",
+    "google-translate": "^2.2.0",
+    "google-translate-api": "^2.3.0",
+    "randomstring": "^1.1.5",
+    "randomstrings": "^0.0.2",
+    "node": "^10.10.0",
+    "discord.js": "^11.4.2"
+  
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
